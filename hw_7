@@ -1,0 +1,19 @@
+#include <iostream>
+
+#define TORF if (a < n && n < b-1) \
+std::cout << true << "  "; \
+else \
+std::cout << false << "  ";
+
+#define RAZIM(z,m,s) (*((*(z + m) + s)))\
+
+int main(int argc, char const *argv[])
+{
+    int a = 0;
+    int b = 7;
+    int n = 4;
+    TORF
+
+
+    return 0;
+}
